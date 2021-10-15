@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ethelworld.RBBApp.UI.MainScreen"
+    tools:showIn="@layout/app_bar_main">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:tabTextColor="@color/colorLight"
+        app:tabIndicatorColor="@color/colorLight"
+        app:tabRippleColor="@color/colorPrimaryDark"
+        android:theme="@style/AppTheme.AppBarOverlay"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"/>
+</RelativeLayout>

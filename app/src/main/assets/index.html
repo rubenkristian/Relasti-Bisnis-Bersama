@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @font-face {
+                font-family: 'Nexa';
+                src: url("file:///android_res/font/nexaregular.otf");
+            }
+            body{
+                font-family: 'Nexa';
+                font-size: 18px;
+                text-align: center;
+            }
+            table, th, td{
+                table-layout: fixed ;
+                width: 100%;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th {
+                padding: 20px;
+            }
+            td {
+                padding: 10px;
+            }
+            .button {
+                width: 100%;
+                background-color: #202d57; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+            }
+        </style>
+        <script>
+            function toConfirmPayment() {
+                window.location.replace("file:///android_asset/payment.html")
+            }
+        </script>
+    </head>
+    <body>
+        <p style="text-align:center;font-weight: 400;">
+            Halo, <b><span id="name"></span></b>
+            <br/>
+            Kode referal anda <b><span id="referal"></span></b>
+            <br/>
+            Silahkan selesaikan administrasi untuk mengaktifkan keanggotaan
+        </p>
+        <table>
+            <tr>
+                <th>Produk</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Akun RBB</td>
+                <td><span id="rbb"></span></td>
+            </tr>
+            <tr>
+                <td>Payment Code</td>
+                <td><span id="code"></span></td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td><span id="total"></span></td>
+            </tr>
+        </table>
+        <br/>
+        <button onClick="javascript:return toConfirmPayment();" class="button">Ok</button>
+        <script type="text/javascript">
+            document.getElementById("name").innerHTML       = Payment.getName();
+            document.getElementById("referal").innerHTML    = Payment.getReferal();
+            document.getElementById("rbb").innerHTML        = Payment.getPrice();
+            document.getElementById("code").innerHTML       = Payment.getCode();
+            document.getElementById("total").innerHTML      = Payment.getTotal();
+        </script>
+    </body>
+</html>

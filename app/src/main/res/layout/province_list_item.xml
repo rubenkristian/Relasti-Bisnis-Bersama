@@ -1,0 +1,9 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/name_province"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:textSize="25sp"
+    android:textColor="@color/colorDark"
+    android:paddingVertical="15dp"
+    android:paddingHorizontal="15dp"/>

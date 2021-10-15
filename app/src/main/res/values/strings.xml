@@ -1,0 +1,312 @@
+<resources>
+    <string name="greeting">YTH Rekan %1$s</string>
+    <string name="referal_greeting">Nomor Referral anda :</string>
+    <string name="app_name">RBB</string>
+    <string name="splash_image">splash image</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Masuk</string>
+    <string name="login_image">login image</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="saya_setuju">Saya setuju</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="icon">icon</string>
+    <string name="partner_area">Partner Area</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="other">Other</string>
+    <string name="whatsapp_number">Whatsapp number</string>
+    <string name="company">Company</string>
+    <string name="occupation">Occupation</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="account_number">Account number</string>
+    <string name="account_name">Account name</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="profile">Profile</string>
+    <string name="my_partner">My Partner</string>
+    <string name="my_pin">My PIN</string>
+    <string name="pin_seller">PIN Seller</string>
+    <string name="search">Search</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="partner_invite">Partner Invite</string>
+    <string name="whatsapp_contact">Whatsapp Contact</string>
+    <string name="type_captcha">type captcha</string>
+    <string name="bank">Bank</string>
+    <string name="nomor_rekening_bank">Nomor Rekening Bank</string>
+    <string name="nama_rekening_bank">Nama Rekening Bank</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="tiktok">TikTok</string>
+    <string name="youtube">YouTube</string>
+    <string name="online_shop">Online Shop</string>
+    <string name="version">Version</string>
+    <string name="syarat_dan_ketentuan">Syarat dan Ketentuan</string>
+    <string name="refresh_captcha">refresh captcha</string>
+    <string name="password_lama">Old password</string>
+    <string name="password_baru">New password</string>
+    <string name="background_image">background Image</string>
+    <string name="other_information">Other Information</string>
+    <string name="invite_account">Invite Account</string>
+    <string name="gender">Gender</string>
+    <string name="change_password">Change Password</string>
+    <string name="launcher">Launcher</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="view_profile">View Profile</string>
+    <string name="withdrawal">Withdraw Cashback</string>
+    <string name="total_bonus">Total Bonus</string>
+    <string name="nominal_withdrawal">Nominal Withdrawal</string>
+    <string name="cashback_keturunan">Cashback Keturunan</string>
+    <string name="kode_referal">Kode Referal (*Harus masukan kode referal)</string>
+    <string name="withdraw_history">Withdraw History</string>
+    <string name="logo">Logo</string>
+    <string name="background_splash">background_splash</string>
+    <string name="login">Login</string>
+    <string name="daftar">Register</string>
+    <string name="save">Save</string>
+    <string name="generation_index">Keturunan %1$d</string>
+    <string name="mitra_count">%1$d Mitra</string>
+    <string name="star_needed">%1$d Stars</string>
+    <string name="contact_rbb_recovery">Memulihkan kontak RBB</string>
+    <string name="selesai">Selesai</string>
+    <string name="email">Email</string>
+    <string name="account_info">Account Information</string>
+    <string name="contact_info">Contact Information</string>
+    <string name="bank_info">Bank Information</string>
+    <string name="send">Send</string>
+    <string name="confirm_code">Kode Konfirmasi</string>
+    <string name="resend_code">Resend new code</string>
+    <string name="masukan_password_baru">Type new password</string>
+    <string name="total">Total</string>
+    <string name="re_type_password">Retype password</string>
+    <string name="download_withdraw_history">Download withdraw history</string>
+    <string name="date_pick">Pick date</string>
+    <string name="share">Share</string>
+    <string name="star_reward">Star reward</string>
+    <string name="choose">Pilih</string>
+    <string name="star">Star</string>
+
+
+    <string-array name="CountryCodes">
+        <item>+93 AF</item>
+        <item>+355 AL</item>
+        <item>+213 DZ</item>
+        <item>+376 AD</item>
+        <item>+244 AO</item>
+        <item>+54 AR</item>
+        <item>+374 AM</item>
+        <item>+297 AW</item>
+        <item>+61 AU</item>
+        <item>+43 AT</item>
+        <item>+994 AZ</item>
+        <item>+973 BH</item>
+        <item>+880 BD</item>
+        <item>+375 BY</item>
+        <item>+32 BE</item>
+        <item>+501 BZ</item>
+        <item>+229 BJ</item>
+        <item>+975 BT</item>
+        <item>+591 BO</item>
+        <item>+387 BA</item>
+        <item>+267 BW</item>
+        <item>+55 BR</item>
+        <item>+673 BN</item>
+        <item>+359 BG</item>
+        <item>+226 BF</item>
+        <item>+95 MM</item>
+        <item>+257 BI</item>
+        <item>+855 KH</item>
+        <item>+237 CM</item>
+        <item>+1 CA</item>
+        <item>+238 CV</item>
+        <item>+236 CF</item>
+        <item>+235 TD</item>
+        <item>+56 CL</item>
+        <item>+86 CN</item>
+        <item>+61 CX</item>
+        <item>+61 CC</item>
+        <item>+57 CO</item>
+        <item>+269 KM</item>
+        <item>+242 CG</item>
+        <item>+243 CD</item>
+        <item>+682 CK</item>
+        <item>+506 CR</item>
+        <item>+385 HR</item>
+        <item>+53 CU</item>
+        <item>+357 CY</item>
+        <item>+420 CZ</item>
+        <item>+45 DK</item>
+        <item>+253 DJ</item>
+        <item>+670 TL</item>
+        <item>+593 EC</item>
+        <item>+20 EG</item>
+        <item>+503 SV</item>
+        <item>+240 GQ</item>
+        <item>+291 ER</item>
+        <item>+372 EE</item>
+        <item>+251 ET</item>
+        <item>+500 FK</item>
+        <item>+298 FO</item>
+        <item>+679 FJ</item>
+        <item>+358 FI</item>
+        <item>+33 FR</item>
+        <item>+689 PF</item>
+        <item>+241 GA</item>
+        <item>+220 GM</item>
+        <item>+995 GE</item>
+        <item>+49 DE</item>
+        <item>+233 GH</item>
+        <item>+350 GI</item>
+        <item>+30 GR</item>
+        <item>+299 GL</item>
+        <item>+502 GT</item>
+        <item>+224 GN</item>
+        <item>+245 GW</item>
+        <item>+592 GY</item>
+        <item>+509 HT</item>
+        <item>+504 HN</item>
+        <item>+852 HK</item>
+        <item>+36 HU</item>
+        <item>+91 IN</item>
+        <item>+62 ID</item>
+        <item>+98 IR</item>
+        <item>+964 IQ</item>
+        <item>+353 IE</item>
+        <item>+44 IM</item>
+        <item>+972 IL</item>
+        <item>+39 IT</item>
+        <item>+225 CI</item>
+        <item>+81 JP</item>
+        <item>+962 JO</item>
+        <item>+7 KZ</item>
+        <item>+254 KE</item>
+        <item>+686 KI</item>
+        <item>+965 KW</item>
+        <item>+996 KG</item>
+        <item>+856 LA</item>
+        <item>+371 LV</item>
+        <item>+961 LB</item>
+        <item>+266 LS</item>
+        <item>+231 LR</item>
+        <item>+218 LY</item>
+        <item>+423 LI</item>
+        <item>+370 LT</item>
+        <item>+352 LU</item>
+        <item>+853 MO</item>
+        <item>+389 MK</item>
+        <item>+261 MG</item>
+        <item>+265 MW</item>
+        <item>+60 MY</item>
+        <item>+960 MV</item>
+        <item>+223 ML</item>
+        <item>+356 MT</item>
+        <item>+692 MH</item>
+        <item>+222 MR</item>
+        <item>+230 MU</item>
+        <item>+262 YT</item>
+        <item>+52 MX</item>
+        <item>+691 FM</item>
+        <item>+373 MD</item>
+        <item>+377 MC</item>
+        <item>+976 MN</item>
+        <item>+382 ME</item>
+        <item>+212 MA</item>
+        <item>+258 MZ</item>
+        <item>+264 NA</item>
+        <item>+674 NR</item>
+        <item>+977 NP</item>
+        <item>+31 NL</item>
+        <item>+599 AN</item>
+        <item>+687 NC</item>
+        <item>+64 NZ</item>
+        <item>+505 NI</item>
+        <item>+227 NE</item>
+        <item>+234 NG</item>
+        <item>+683 NU</item>
+        <item>+850 KP</item>
+        <item>+47 NO</item>
+        <item>+968 OM</item>
+        <item>+92 PK</item>
+        <item>+680 PW</item>
+        <item>+507 PA</item>
+        <item>+675 PG</item>
+        <item>+595 PY</item>
+        <item>+51 PE</item>
+        <item>+63 PH</item>
+        <item>+870 PN</item>
+        <item>+48 PL</item>
+        <item>+351 PT</item>
+        <item>+1 PR</item>
+        <item>+974 QA</item>
+        <item>+40 RO</item>
+        <item>+7 RU</item>
+        <item>+250 RW</item>
+        <item>+590 BL</item>
+        <item>+685 WS</item>
+        <item>+378 SM</item>
+        <item>+239 ST</item>
+        <item>+966 SA</item>
+        <item>+221 SN</item>
+        <item>+381 RS</item>
+        <item>+248 SC</item>
+        <item>+232 SL</item>
+        <item>+65 SG</item>
+        <item>+421 SK</item>
+        <item>+386 SI</item>
+        <item>+677 SB</item>
+        <item>+252 SO</item>
+        <item>+27 ZA</item>
+        <item>+82 KR</item>
+        <item>+34 ES</item>
+        <item>+94 LK</item>
+        <item>+290 SH</item>
+        <item>+508 PM</item>
+        <item>+249 SD</item>
+        <item>+597 SR</item>
+        <item>+268 SZ</item>
+        <item>+46 SE</item>
+        <item>+41 CH</item>
+        <item>+963 SY</item>
+        <item>+886 TW</item>
+        <item>+992 TJ</item>
+        <item>+255 TZ</item>
+        <item>+66 TH</item>
+        <item>+228 TG</item>
+        <item>+690 TK</item>
+        <item>+676 TO</item>
+        <item>+216 TN</item>
+        <item>+90 TR</item>
+        <item>+993 TM</item>
+        <item>+688 TV</item>
+        <item>+971 AE</item>
+        <item>+256 UG</item>
+        <item>+44 GB</item>
+        <item>+380 UA</item>
+        <item>+598 UY</item>
+        <item>+1 US</item>
+        <item>+998 UZ</item>
+        <item>+678 VU</item>
+        <item>+39 VA</item>
+        <item>+58 VE</item>
+        <item>+84 VN</item>
+        <item>+681 WF</item>
+        <item>+967 YE</item>
+        <item>+260 ZM</item>
+        <item>+263 ZW</item>
+    </string-array>
+</resources>

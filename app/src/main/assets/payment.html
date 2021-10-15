@@ -1,0 +1,108 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @font-face {
+                font-family: 'Nexa';
+                src: url("file:///android_res/font/nexaregular.otf");
+            }
+            body{
+                font-family: 'Nexa';
+                font-size: 18px;
+            }
+            table, th, td{
+                table-layout: fixed ;
+                width: 100%;
+                border-collapse: collapse;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            th {
+                padding: 20px;
+            }
+            td {
+                padding: 10px;
+            }
+            .button {
+                background-color: #202d57; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                position: relative;
+                left: 50%;
+                right: 50%;
+                margin: 10px 0 10px 0;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, 0%);
+            }
+            .tab {
+              padding-left: 2px;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+        <script type="text/javascript">
+            function copyToClipboard(text) {
+                Payment.copyNumber(text);
+            }
+
+            function sendMessage(number) {
+                Payment.sendWA(number);
+            }
+        </script>
+    </head>
+    <body>
+        <p style="text-align:center;font-weight: 400;font-size: 24px;">Terima kasih, pesanan anda telah diterima</p>
+        <table>
+            <tr>
+                <td>Nama pesanan</td>
+                <td>:&nbsp;Akun <span id="rbb"></span></td>
+            </tr>
+            <tr>
+                <td>Tanggal</td>
+                <td>:&nbsp;<span id="date"></span></td>
+            </tr>
+            <tr>
+                <td>No WA</td>
+                <td>:&nbsp;<span id="wa"></span></td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>:&nbsp;<span id="total"></span></td>
+            </tr>
+            <tr>
+                <td>Metode pembayaran menggunakan transfer bank</td>
+                <td>:&nbsp;</td>
+            </tr>
+        </table>
+        <p style="text-align: center;font-size: 18px;">BCA<br/>2880308800&nbsp;<a href="javascript:copyToClipboard('2880308800');">Salin</a></p>
+        <p style="text-align: center;font-size: 18px;"></p>
+        <p style="text-align: center;font-size: 18px;">MANDIRI<br/>1180030880008&nbsp;<a href="javascript:copyToClipboard('1180030880008');">Salin</a></p>
+        <p style="text-align: center;font-size: 18px;"></p>
+        <p style="text-align: center;font-size: 18px;">BRI<br/>037701001300305&nbsp;<a href="javascript:copyToClipboard('037701001300305');">Salin</a></p>
+        <p style="text-align: center;font-size: 18px;"></p>
+        <br/>
+        <p style="text-align: center;font-size: 18px;">Atas nama</p>
+        <p style="text-align: center;font-size: 18px;"><b>PT MAHAKARYA CITRA INTERNASIONAL</b></p>
+
+        <div style="margin-top:10px;">
+            <p style="text-align: center;font-size: 18px;">Lakukan pelaporan validasi kepada wa cs kami dalam 2x24 jam untuk mengaktifkan akun</p>
+            <button onClick="javascript:return sendMessage('6287880003805');" class="button" style="font-size: 12px;width: auto;">+6287880003805</button>
+            <br/>
+            <button onClick="javascript:return sendMessage('6281992122268');" class="button" style="font-size: 12px;width: auto;">+6281992122268</button>
+        </div>
+        <br/>
+        <br/>
+        <script type="text/javascript">
+                document.getElementById("rbb").innerHTML        = Payment.getReferal();
+                document.getElementById("date").innerHTML       = Payment.getDate();
+                document.getElementById("wa").innerHTML         = Payment.getWA();
+                document.getElementById("total").innerHTML      = Payment.getTotal();
+        </script>
+    </body>
+</html>

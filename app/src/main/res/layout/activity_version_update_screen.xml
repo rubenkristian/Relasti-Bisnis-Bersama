@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.VersionUpdateScreen">
+
+    <ImageView
+        android:id="@+id/rbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rbb"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rbb"
+        android:text="Versi aplikasi RBB kamu telah kadaluarsa. Perbaharui aplikasi untuk dapat menggunakannya kembali."
+        android:textSize="20sp"
+        android:padding="40dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perbaharui"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/description"/>
+</RelativeLayout>

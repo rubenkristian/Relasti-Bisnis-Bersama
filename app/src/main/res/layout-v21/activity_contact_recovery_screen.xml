@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.ContactRecoveryScreen">
+    <TextView
+        android:id="@+id/status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_rbb_recovery"
+        android:layout_above="@id/progress_contact_recovery"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="15dp"
+        android:textSize="18sp"/>
+    <ProgressBar
+        android:id="@+id/progress_contact_recovery"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginHorizontal="3dp"
+        android:progressTint="@color/colorPrimaryDark"
+        android:progress="30"
+        android:scaleY="2"
+        android:layout_centerInParent="true"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selesai"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

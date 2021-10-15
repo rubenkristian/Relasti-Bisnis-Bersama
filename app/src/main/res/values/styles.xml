@@ -1,0 +1,119 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">#B4B4B4</item>
+        <item name="android:textColorPrimary">@color/colorDark</item>
+        <item name="android:textColorSecondary">@color/colorLight</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+        <item name="android:textViewStyle">@style/NexaTextViewStyle</item>
+        <item name="android:buttonStyle">@style/NexaButtonStyle</item>
+        <item name="android:editTextStyle">@style/NexaEditTextStyle</item>
+        <item name="android:popupMenuStyle">@style/NexaMenuStyle</item>
+        <item name="searchViewStyle">@style/CustomSearchView</item>
+        <item name="autoCompleteTextViewStyle">@style/SearchAutoCompleteTextView</item>
+    </style>
+
+    <style name="SearchAutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textColorHint">@color/colorLight</item>
+        <item name="android:editTextColor">@color/colorLight</item>
+    </style>
+
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">#B4B4B4</item>
+        <item name="android:textColorPrimary">@color/colorLight</item>
+        <item name="android:textColorSecondary">@color/colorLight</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:editTextColor">@color/colorLight</item>
+    </style>
+
+    <style name="NexaItemText">
+        <item name="fontFamily">@font/nexa</item>
+    </style>
+    <style name="NexaMenuStyle" parent="android:Widget.PopupMenu">
+        <item name="fontFamily">@font/nexa</item>
+    </style>
+
+    <style name="NexaTextViewStyle" parent="android:Widget.TextView">
+        <item name="fontFamily">@font/nexa</item>
+    </style>
+
+    <style name="NexaButtonStyle" parent="android:Widget.Button">
+        <item name="fontFamily">@font/nexa</item>
+    </style>
+    
+    <style name="NexaEditTextStyle" parent="android:Widget.EditText">
+        <item name="fontFamily">@font/nexa</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/edit_text_box_border</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="color">@color/inputLoginBackground</item>
+        <item name="android:textColor">@color/inputLoginText</item>
+        <item name="android:labelTextSize">18sp</item>
+    </style>
+
+    <style name="OutlinedRoundedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded</item>
+        <item name="boxStrokeColor">@color/edit_text_box_border</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="color">@color/inputLoginBackground</item>
+        <item name="android:textColor">@color/inputLoginText</item>
+        <item name="android:labelTextSize">18sp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" parent="">
+        <item name="boxStrokeColor">@color/edit_text_box_border</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="color">@color/inputLoginBackground</item>
+        <item name="android:textColor">@color/inputLoginText</item>
+        <item name="android:labelTextSize">18sp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="LoginTextInputLayoutProfile" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/edit_text_box_border</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:labelTextSize">18sp</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <!--This line changes the color of text in Toolbar-->
+        <item name="android:textColorPrimary">@color/colorLight</item>
+        <!--This line changes the color of icons in toolbar (back, overflow menu icons)-->
+        <item name="android:textColorSecondary">@color/colorLight</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#595959</item>
+        <item name="android:textColorSecondary">@color/colorDark</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+</resources>
